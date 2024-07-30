@@ -1,0 +1,26 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    background-color: #EBF4F6;
+}
+
+header span{
+    color: #071952;
+}
+.nav-item a{
+    color: #071952;
+}
+.nav-item a:hover{
+    color: #088395;
+}
+#nav-butoon{
+    background-color: #071952;
+}
+#nav-butoon:hover{
+    background-color: #37B7C3;
+}
+.icon-square .bi{
+ color: #071952;
+}
+   
