@@ -1,26 +1,63 @@
-*{
+* {
     font-family: "Montserrat", sans-serif;
 }
-header{
+
+header {
     background-color: #EBF4F6;
 }
 
-header span{
+header span {
     color: #071952;
 }
-.nav-item a{
+
+.nav-item a {
     color: #071952;
 }
-.nav-item a:hover{
+
+.nav-item a:hover {
     color: #088395;
 }
-#nav-butoon{
+
+#nav-butoon {
     background-color: #071952;
 }
-#nav-butoon:hover{
+
+#nav-butoon:hover {
     background-color: #37B7C3;
 }
-.icon-square .bi{
- color: #071952;
+
+.icon-square .bi {
+    color: #071952;
 }
-   
+
+.study {
+    text-align: justify;
+}
+
+.proyecto-pinterest {
+    background-image: url('/images/pin.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.proyecto-pinterest::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(55, 183, 195, 0.5);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.proyecto-pinterest .d-flex.flex-column {
+    position: relative;
+    z-index: 2;
+}
+.leer a{
+    text-decoration: none;
+    color: white;
+}
