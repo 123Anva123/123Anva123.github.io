@@ -11,7 +11,7 @@ Podrás encontrarlo aquí [Portafolio](https://123anva123.github.io/).
 * HTML
 * CSS
 * BOOTSTRAP 5
-*JAVASCRIP
+* JAVASCRIP
 
 ### El proyecto cuenta con las siguientes secciones:
 
