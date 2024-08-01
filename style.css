@@ -61,3 +61,16 @@ header span {
     text-decoration: none;
     color: white;
 }
+.bo{
+    color: #071952;
+}
+i{
+    color: #088395;
+    font-size: 1.5rem;
+}
+.cont{
+    background:#FBF9F1 ;
+}
+footer{
+    background: #E5E1DA;
+}
