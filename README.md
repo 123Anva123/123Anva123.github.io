@@ -1,4 +1,4 @@
-#  ⭐ :star: Portafolio de Ana Valeria Trejo Jimenez
+#  ⭐  Portafolio de Ana Valeria Trejo Jimenez
 ## Proyecto responsivo realizado con bootstrap 5
 
 Proyecto creado durante el bootcamp de Tecnolochicas PRO, es adaptable a distintos dispositivos o tamaños de pantalla.
