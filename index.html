@@ -21,6 +21,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Recursive:wght@300..1000&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -29,13 +30,13 @@
             <svg class="bi me-2" width="40" height="32">
                 <use xlink:href="#bootstrap"></use>
             </svg>
-            <span class="fs-4">Ana Valeria</span>
+            <span class="fs-4">Mi Portafolio</span>
         </a>
         <ul class="nav nav-pills">
             <li class="nav-item"><a id="nav-butoon" href="#sobremi" class="nav-link active" aria-current="page">Yo</a>
             </li>
             <li class="nav-item"><a href="#Habilidades" class="nav-link">Habilidades</a></li>
-            <li class="nav-item"><a href="#pryectos" class="nav-link">Proyectos</a></li>
+            <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
             <li class="nav-item"><a href="#testimonios" class="nav-link">Testimonios</a></li>
             <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
         </ul>
@@ -61,7 +62,7 @@
                             enconstante evolución.
                         </p>
                         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                            <button type="button" class="btn btn-outline-info btn-lg px-4">Mi trayectoria </button>
+                            <a  href="cv/CV Trejo Jimenez Ana Valeria.pdf" download="Mi_CV.pdf" class="btn btn-outline-info btn-lg px-4">Mi trayectoria </a>
                         </div>
                     </div>
 
@@ -188,8 +189,8 @@
                 <h2 class="pb-2 border-bottom"><i class="bi bi-file-earmark-plus-fill"></i> Proyectos</h2>
 
                 <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-                    <div class="col">
-                        <div class=" proyecto-pinterest card card-cover h-100 overflow-hidden text-bg-secondary rounded-5 shadow-lg"
+                    <div class="col   animate-on-hover">
+                        <div class=" proyecto-pinterest card card-cover h-100 overflow-hidden text-bg-secondary rounded-5 shadow-lg "
                             style="background-image: url('img/pin.png');">
                             <div class="d-flex flex-column h-60 p-5 pb-3 text-white text-shadow-1">
                                 <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Pinterest </h3>
@@ -210,7 +211,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col   animate-on-hover1">
                         <div class=" proyecto-pinterest card card-cover h-100 overflow-hidden text-bg-secondary rounded-5 shadow-lg"
                             style="background-image: url('img/Rino.png');">
                             <div class="d-flex flex-column h-60 p-5 pb-3 text-white text-shadow-1">
@@ -232,7 +233,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col   animate-on-hover2">
                         <div class=" proyecto-pinterest card card-cover h-100 overflow-hidden text-bg-secondary rounded-5 shadow-lg"
                             style="background-image: url('img/pin.png');">
                             <div class="d-flex flex-column h-60 p-5 pb-3 text-white text-shadow-1">
@@ -258,30 +259,34 @@
         </section>
 
         <section id="testimonios" class="mt-5 container">
-            <h2 class="pb-2 mb-5 border-bottom "><i class="bi bi-chat-text"></i> Testimonios</h2>
+            <h2 class="pb-2 mb-5 border-bottom"><i class="bi bi-chat-text"></i> Testimonios</h2>
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="d-flex justify-content-center">
-                            <div class="card border-0" style="width: 18rem;">
-                                <img src="img/anto2.png" class="rounded-circle card-img-top" alt="...">
+                            <div class="card border-0" style="width: 24rem;">
+                                <img src="img/image.png" class="rounded-circle card-img-top " style="width: 330px;" alt="...">
                                 <div class="card-body text-center">
                                     <h5 class="card-title text-center">Antonio Tobias Huerta</h5>
                                     <div class="card-header rounded-4">
-                                        Desarollador Full Stack
+                                        Desarrollador Full Stack
                                     </div>
-                                    <p class="card-text text-center">Some quick example text to build on the card title
-                                        and make up the bulk of the card's content.</p>
+                                    <p class="card-text ">Trabajar con Ana Valeria ha sido una experiencia
+                                        excepcional. Su habilidad para transformar conceptos de diseño en interfaces de
+                                        usuario intuitivas y atractivas es impresionante. No solo domina las tecnologías
+                                        más recientes como HTML5, CSS3 y JavaScript, sino que también tiene un profundo
+                                        conocimiento de frameworks como Bootstrap y Laravel, lo que nos ha permitido
+                                        crear aplicaciones web rápidas y eficientes.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item active">
+                    <div class="carousel-item">
                         <div class="d-flex justify-content-center">
                             <div class="card border-0" style="width: 18rem;">
                                 <img src="img/image.png" class="rounded-circle card-img-top" alt="...">
                                 <div class="card-body text-center">
-                                    <h5 class="card-title text-center">Lorem ipsum dolor </h5>
+                                    <h5 class="card-title text-center">Lorem ipsum dolor</h5>
                                     <div class="card-header rounded-4">
                                         Lorem ipsum dolor
                                     </div>
@@ -291,7 +296,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item active">
+                    <div class="carousel-item">
                         <div class="d-flex justify-content-center">
                             <div class="card border-0" style="width: 18rem;">
                                 <img src="img/image.png" class="rounded-circle card-img-top" alt="...">
@@ -312,14 +317,14 @@
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class=" carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-
         </section>
+
 
         <section id="contacto">
             <div class=" container my-5">
@@ -350,7 +355,7 @@
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
             <li class="nav-item"><a href="https://github.com/123Anva123" target="_blank"
                     class="nav-link px-2 text-body-secondary"><i class="bi bi-github"></i></a></li>
-            <li class="nav-item"><a href="#" target="_blank" class="nav-link px-2 text-body-secondary"><i
+            <li class="nav-item"><a href="https://www.linkedin.com/in/ana-trejo-6529a5321/" target="_blank" class="nav-link px-2 text-body-secondary"><i
                         class="bi bi-linkedin"></i></a></li>
             <li class="nav-item"><a href="https://rinotecompany.000webhostapp.com/" target="_blank"
                     class="nav-link px-2 text-body-secondary"><i class="bi bi-globe"></i></a></li>

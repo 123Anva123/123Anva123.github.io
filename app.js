@@ -14,3 +14,49 @@ typewriter.typeString('Ing. Desarrollo y Gestion de Software .')
     .typeString(' Desarrolladora Frontend')
     .pauseFor(2500)
     .start();
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const element = document.querySelector('.animate-on-hover');
+        element.addEventListener('mouseover', () => {
+          element.classList.add('animate__animated', 'animate__pulse');
+        });
+        element.addEventListener('animationend', () => {
+          element.classList.remove('animate__animated', 'animate__pulse');
+        });
+        element.addEventListener('mouseout', () => {
+
+          element.classList.remove('animate__animated', 'animate__pulse');
+        });
+      });
+
+
+      document.addEventListener('DOMContentLoaded', () => {
+        const element = document.querySelector('.animate-on-hover1');
+
+        element.addEventListener('mouseover', () => {
+          element.classList.add('animate__animated', 'animate__pulse');
+        });
+
+        element.addEventListener('animationend', () => {
+
+          element.classList.remove('animate__animated', 'animate__pulse');
+        });
+
+        element.addEventListener('mouseout', () => {
+
+          element.classList.remove('animate__animated', 'animate__pulse');
+        });
+      });
+
+      document.addEventListener('DOMContentLoaded', () => {
+        const element = document.querySelector('.animate-on-hover2');
+        element.addEventListener('mouseover', () => {
+          element.classList.add('animate__animated', 'animate__pulse');
+        });
+        element.addEventListener('animationend', () => {
+          element.classList.remove('animate__animated', 'animate__pulse');
+        });
+        element.addEventListener('mouseout', () => {
+          element.classList.remove('animate__animated', 'animate__pulse');
+        });
+      });

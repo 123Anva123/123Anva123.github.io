@@ -77,3 +77,6 @@ footer{
     color: #071952;
     font-family: "Recursive";
 }
+.card-text{
+    text-align: justify;
+}
